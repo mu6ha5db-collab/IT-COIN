@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Coin (IT Coin by Ithihad)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0b1e2d;
+      color: #cce6e1;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #065a4d;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      width: 100px;
+      height: 100px;
+      animation: flip 2s infinite linear;
+    }
+    @keyframes flip {
+      0% { transform: rotateY(0deg); }
+      50% { transform: rotateY(180deg); }
+      100% { transform: rotateY(360deg); }
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #024d42;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #cce6e1;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00ffc3;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #00ffc3;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    .programme {
+      display: inline-block;
+      padding: 20px;
+      margin: 10px;
+      border: 2px solid #00ffc3;
+      border-radius: 10px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    .programme:hover {
+      box-shadow: 0 0 10px #00ffc3;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border: 1px solid #00ffc3;
+      background: #02332f;
+      color: #cce6e1;
+    }
+    form button {
+      padding: 10px 20px;
+      background: #00ffc3;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #024d42;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>IT Coin (IT Coin by Ithihad)</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#status">Status</a>
+  <a href="#programmes">Programmes</a>
+  <a href="#appeals">Appeals</a>
+  <a href="#feedback">Feedback</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome to IT Coin</h2>
+  <p>
+    IT Coin (by Ithihad) is a coin for Ithihad members, earned by participating and coordinating programmes.
+    Check your coin status and appeal for any incorrect actions.
+  </p>
+  <h3>Coin Rules</h3>
+  <ul>
+    <li>Participating in a programme: 2 coins</li>
+    <li>Coordinating a programme: 2 coins</li>
+    <li>Judging a programme: 2 coins</li>
+    <li>First prize: 6 coins</li>
+    <li>Second prize: 4 coins</li>
+    <li>Third prize: 2 coins</li>
+    <li>Spoiling programmes: -5 coins</li>
+    <li>Not following core committee rules: -5 coins</li>
+  </ul>
+  <h3>Programmes</h3>
+  <!-- Manually change programme names and details here -->
+  <div class="programme">gaza nights</div>
+</section>
+
+<section id="status">
+  <h2>Members Coin Status</h2>
+  <!-- Manually update coin numbers here -->
+  <table>
+    <tr>
+      <th>S.No</th>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Coins</th>
+    </tr>
+    <tr><td>1</td><td>921</td><td>Shibli</td><td>0</td></tr>
+    <tr><td>2</td><td>933</td><td>Shan</td><td>0</td></tr>
+    <tr><td>3</td><td>937</td><td>Safwan</td><td>0</td></tr>
+    <tr><td>4</td><td>938</td><td>Sinan</td><td>2</td></tr>
+    <tr><td>5</td><td>939</td><td>Rabeeh</td><td>2</td></tr>
+    <tr><td>6</td><td>940</td><td>Zayan</td><td>8</td></tr>
+    <tr><td>7</td><td>941</td><td>Fadil</td><td>0</td></tr>
+    <tr><td>8</td><td>943</td><td>Faraz</td><td>6</td></tr>
+    <tr><td>9</td><td>944</td><td>Sahal</td><td>0</td></tr>
+    <tr><td>10</td><td>945</td><td>Muhavviz</td><td>0</td></tr>
+    <tr><td>11</td><td>946</td><td>Thanseeh</td><td>0</td></tr>
+    <tr><td>12</td><td>951</td><td>Ishaq</td><td>0</td></tr>
+    <tr><td>13</td><td>953</td><td>Zakwan</td><td>0</td></tr>
+    <tr><td>14</td><td>954</td><td>Sinan</td><td>0</td></tr>
+    <tr><td>15</td><td>955</td><td>Rayyan</td><td>0</td></tr>
+    <tr><td>16</td><td>958</td><td>Sayir</td><td>2</td></tr>
+    <tr><td>17</td><td>959</td><td>Rufaid</td><td>6</td></tr>
+    <tr><td>18</td><td>962</td><td>Shabeeb</td><td>2</td></tr>
+    <tr><td>19</td><td>963</td><td>Shayan</td><td>0</td></tr>
+    <tr><td>20</td><td>964</td><td>Muhammed</td><td>4</td></tr>
+    <tr><td>21</td><td>965</td><td>Muhammed</td><td>0</td></tr>
+    <tr><td>22</td><td>966</td><td>Mubarak</td><td>0</td></tr>
+    <tr><td>23</td><td>967</td><td>Salman</td><td>2</td></tr>
+    <tr><td>24</td><td>969</td><td>Shibli</td><td>0</td></tr>
+    <tr><td>25</td><td>970</td><td>Rabah</td><td>0</td></tr>
+    <tr><td>26</td><td>971</td><td>Muhammed</td><td>0</td></tr>
+    <tr><td>27</td><td>972</td><td>Ihan</td><td>0</td></tr>
+    <tr><td>28</td><td>973</td><td>Thameem</td><td>0</td></tr>
+    <tr><td>29</td><td>974</td><td>Nasooh</td><td>2</td></tr>
+    <tr><td>30</td><td>975</td><td>Nazim</td><td>2</td></tr>
+  </table>
+</section>
+<section id="appeals">
+  <h2>Appeals</h2>
+  <form action="mailto:mu6ha5db@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="text" name="id" placeholder="Your ID" required>
+    <textarea name="appeal" rows="5" placeholder="Write your appeal here..." required></textarea>
+    <button type="submit">Send Appeal</button>
+  </form>
+</section>
+
+<section id="feedback">
+  <h2>Feedback</h2>
+  <form action="mailto:mu6ha5db@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <textarea name="feedback" rows="5" placeholder="Write your feedback here..." required></textarea>
+    <button type="submit">Send Feedback</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 IT Coin by Ithihad
+</footer>
+
+</body>
+</html>
